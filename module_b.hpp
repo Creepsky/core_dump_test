@@ -10,6 +10,6 @@ struct module_b
     {
         module_c<T> c;
         c.func = std::move(f);
-        return c.func();
+        return c.func(c);
     }
 };

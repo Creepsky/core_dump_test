@@ -2,5 +2,5 @@
 
 int main()
 {
-    return [](){ return module_a::func(); };
+    return module_a::func();
 }
